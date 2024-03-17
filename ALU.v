@@ -15,7 +15,7 @@ always @(*) begin
     case(funct)
         0: ALUout = (ALUin1 + ALUin2);                                //0, addition
         1: ALUout = (ALUin1 - ALUin2);                                //1, subtraction
-        2: ALUout = (ALUin1 << ALUin2);                               //2, left shift
+        2: ALUout = (ALUin1 << ALUin2);                               //2, Logical left shift
         3: ALUout = ($signed(ALUin1) < $signed(ALUin2));              //3, signed comparison
         4: ALUout = (ALUin1 < ALUin2);                                //4, unsigned comparison
         5: ALUout = (ALUin1 ^ ALUin2);                                //5, XOR
