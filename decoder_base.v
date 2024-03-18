@@ -15,7 +15,7 @@ module riscv_decode(
     output [11:0] imm12,
     output [19:0] imm20,
 
-    output [1:0] mode,
+    output [4:0] mode,
 
 );
 

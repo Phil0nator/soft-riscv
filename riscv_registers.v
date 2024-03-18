@@ -13,9 +13,9 @@ module riscv_registers(
     input [4:0] rd,
     input wen,
     input [31:0] data,
-    output a,
-    output b,
-    output d
+    output [31:0] a,
+    output [31:0] b,
+    output [31:0] d
 );
 
 
