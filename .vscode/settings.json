@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "cstdint": "cpp",
+        "memory.h": "c",
+        "arch.h": "c",
+        "vga.h": "c"
+    }
+}
