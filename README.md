@@ -1,6 +1,6 @@
 # Soft RISC-V Core
 This repository is split into two primary sections:
-1. The first is the RTL_src directory. This includes the RTL, testbenches, and constraints files necessary
+1. The first is the RTL directory. This includes the RTL, testbenches, and constraints files necessary
    to implement the core on a Digilent Basys-3 development board using Vivado.
 2. The second is the software directory. This includes necessary scripts and files to enable compiling
    into a binary file that can be inserted directly into the BRAM on the RISC-V core.
